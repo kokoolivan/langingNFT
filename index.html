@@ -26,7 +26,35 @@
 
             </ul>
             <!--IMAGEN DE SHOP CART-->
-            <img src="./assets/img/cart-icon.svg" alt="carrito de compras" class="cart-icon" />
+
+            <label for="cart-toggle">
+                <img src="./assets/img/cart-icon.svg" alt="carrito de compras" class="cart-icon" />
+            </label>
+            <input type="checkbox" id="cart-toggle" />
+            
+            <div class="cart">
+                <h2> Tus NFT</h2>
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" />
+                    <div class="item-info">
+                        <h3 class="item-title">Messi</h3>
+                        <p class="item-bid">Current bid</p>
+                        <span class="item-price">6.89 eTH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler-down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler-up">+</span>
+                    </div>
+                </div>
+            </div>
+
+            <span class="divider"></span>
+            <div class="cart-total">
+                <p>Total:</p>
+                <span>6.89 eTH</span>
+            </div>
+            <button class="btn-add">Comprar</button>
         </nav>
 
     </header>
